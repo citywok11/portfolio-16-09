@@ -62,10 +62,9 @@ html, body {
   padding-top: 1rem;
 }
 .carousel-caption h2 {
-  color: rgb(218, 198, 250);
-  text-shadow: 5px 5px 15px rgb(5, 4, 4);
-  font-weight: 500;
-  
+  color: lightblue;
+  text-shadow: 15px 15px 15px rgb(1,1,1);
+  font-weight: 500;  
 }
 .carouse-caption h3 {
   font-size: 200%;
@@ -73,6 +72,7 @@ html, body {
   padding-bottom: 1rem;
   text-shadow: 1px 1px 10px #000;
   text-transform: uppercase;
+  color: rgb(1,1,1);
 
 }
 .carousel-caption .btn {
@@ -185,13 +185,16 @@ hr.light-100 {
 .jumbotron h2 {
   text-align: center;
 }
+.carousel-caption h1 {
+  font-size: 250%;
+}
 }
 @media (max-width: 768px) {
   .carousel-caption {
     top: 45%;
 }
 .carousel-caption h1 {
-  font-size: 350%;
+  font-size: 250%;
 }
 .carousel-caption h2 {
   font-size: 140%;
@@ -223,7 +226,7 @@ hr.light-100 {
     top: 40%;
 }
 .carousel-caption h1 {
-  font-size: 250%;
+  font-size: 200%;
 }
 .carousel-caption h2 {
   font-size: 110%;
